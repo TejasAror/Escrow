@@ -14,7 +14,7 @@ The program models a basic escrow flow between a buyer and a seller using on-cha
 
 ## Features
 
-- Initialize escrow with buyer, seller, and amount
+- Initialize escrow with buyer, seller and amount
 - Mark escrow as funded
 - Release escrow after validation
 - Safe and minimal state transitions
@@ -23,21 +23,20 @@ The program models a basic escrow flow between a buyer and a seller using on-cha
 
 ## Instructions
 
-### `initialize`
+### initialize
 Creates a new escrow account and stores:
 - Buyer address
 - Seller address
 - Escrow amount
 - Funded status (false)
 
-### `deposit`
+### deposit
 Marks the escrow as funded.
 
-### `release`
+### release
 Releases the escrow by resetting the funded flag.
 Fails if escrow is not funded.
 
----
 
 ## Build Instructions
 
